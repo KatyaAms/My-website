@@ -53,6 +53,9 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+.primary-link:hover {
+  color: white;
+}
 
 .secondary-link {
   color: var(--primary-color);
@@ -88,14 +91,22 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-@media (max-width: 600px) {
-  img {
-    display: none;
-  }
+@media (max-width: 700px) {
   h1 {
     text-align: center;
+    font-size: 48px;
+    line-height: 1.5;
   }
-  .col-6 {
-    max-width: 100%;
+  h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
